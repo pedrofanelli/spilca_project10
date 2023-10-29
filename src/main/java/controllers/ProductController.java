@@ -20,8 +20,7 @@ public class ProductController {
 	@RequestMapping("/products")                  
 	public String viewProducts(Model model) {     
 	    var products = productService.findAll();    
-	    model.addAttribute("products", products);   
-	 
+	    model.addAttribute("products", products);  // i'm passing a list of products retrieved from the service 
 	    return "products.html";                     
 	}
 
