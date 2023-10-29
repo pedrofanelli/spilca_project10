@@ -6,7 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * A controller will call the use cases implemented by the service
+ * A controller will call the USE CASES implemented by the service
+ * A controller fulfills ACTIONS
+ * So the use cases allow to acomplish the actions
  */
 
 @Service
